@@ -1,1 +1,1 @@
-
+ssh ec2-user@<public_ip> -i /path/to/your/key.pem
