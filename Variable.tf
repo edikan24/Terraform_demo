@@ -20,5 +20,5 @@ variable "instance_type" {
 
 variable "ami_id" {
   description = "ubuntu"
-  default     = "ami-0c02fb55956c7d316"
+  default     = "ami-00271c85bf8a52b84"
 }
