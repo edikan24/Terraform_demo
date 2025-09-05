@@ -1,5 +1,5 @@
 variable "aws_region" {
-  default = "us-east-1"
+  default = "us-west-1"
 }
 
 variable "vpc_cidr" {
@@ -11,7 +11,7 @@ variable "subnet_cidr" {
 }
 
 variable "availability_zone" {
-  default = "us-east-1a"
+  default = "us-west-1a"
 }
 
 variable "instance_type" {
@@ -19,6 +19,6 @@ variable "instance_type" {
 }
 
 variable "ami_id" {
-  description = "Amazon Linux 2 AMI ID"
+  description = "ubuntu"
   default     = "ami-0c02fb55956c7d316"
 }
